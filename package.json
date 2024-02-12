@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+      "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -24,4 +26,5 @@
     "vite": "^5.0.8",
     "gh-pages": "^4.2.0"  // Make sure gh-pages is listed as a devDependency
   },
+    "homepage": "https://FarheenMalak.github.io/React-Project-One"
 }
