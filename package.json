@@ -24,9 +24,4 @@
     "vite": "^5.0.8",
     "gh-pages": "^4.2.0"  // Make sure gh-pages is listed as a devDependency
   },
-  "homepage": "https://FarheenMalak.github.io/React-Project-One",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
 }
