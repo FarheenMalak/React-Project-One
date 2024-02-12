@@ -21,6 +21,12 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "gh-pages": "^4.2.0"  // Make sure gh-pages is listed as a devDependency
+  },
+  "homepage": "https://FarheenMalak.github.io/React-Project-One",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
